@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    width: 100%;
+    box-shadow: 1px 1px 10px;
+    display: flex;
+    text-align: center;
+}
+.header-logo img{
+    margin: 5px 50px;
+    width: 70px;
+    height: 70px;
+}
+.container{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+}
+input[type="text"],input[type="password"]{
+    border: none;
+    background-color: rgb(221, 219, 219);
+    width: 350px;
+    color: rgb(131, 125, 125);
+    height: 45px;
+    padding: 10px 20px 10px 30px;
+    font-size: 18px;
+    margin: 10px 0px 5px 0px;
+    border-radius: 40px;
+}
+input[type="submit"]{
+    border: none;
+    background-color: rgb(117, 0, 252);
+    width: 350px;
+    height: 45px;
+    text-align: center;
+    font-size: 18px;
+    margin: 10px 0px 5px 0px;
+    color: white;
+    border-radius: 40px;
+    cursor: pointer;
+}
+input[type="radio"]{
+    margin: 20px 20px 30px 20px;
+}
+form a{
+text-decoration: none;
+color: rgb(13, 116, 156);
+}
+.title h1{
+    margin: 0px 0px 10px 0px;
+    color: rgb(94, 91, 91);
+}
+.title p{
+    color: rgb(3, 105, 109);
+}
+label{
+    font-size: 22px;
+    color: rgb(157, 157, 160);
+    margin: 20px 50px 20px 0px;
+}
+select{
+    border: 1px solid rgb(176, 176, 179);
+    padding: 10px;
+    font-size: 16px;
+    color: rgb(131, 125, 125);
+}
+label.money{
+    border: 1px solid rgb(177, 177, 177);
+    text-align: center;
+    padding: 3px;
+    font-size: 18px;
+    margin: 10px 0px 5px 0px;
+}
