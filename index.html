@@ -1,14 +1,3 @@
-<?php
-session_start();
- if (empty($_SESSION['username'])) {
-    header('location: signin.php');
- } 
- if (isset($_GET['logout'])==1) {
-    session_destroy();
-    unset($_SESSION['username']);
-    header('location: signin.php');
-}
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,7 +7,7 @@ session_start();
     <title>Document</title>
 </head>
 <body>
-    <h1><?php echo $_SESSION['username']?></h1>
+    <h1>klasdjf</h1>
 <a class="btn btn-danger p-0" href="index.php?logout='1'">Logout</a>
 </body>
 </html>
